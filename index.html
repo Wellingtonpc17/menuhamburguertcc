@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="NURA - Plataforma de alimentação saudável personalizada com filtros nutricionais, delivery e receitas." />
+    <title>NURA - Alimentação Saudável</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+
+    <link rel="manifest" href="manifest.json">
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+</head>
+
+<body>
+    <header>
+        <div class="logo">NURA</div>
+        <button class="hamburguer" id="hamburguer" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+
+        <nav id="menu" role="navigation" aria-label="Menu principal" aria-hidden="true">
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Filtros Nutricionais</a></li>
+                <li><a href="#">Receitas</a></li>
+                <li><a href="#">Área Administrativa</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="overlay"></div>
+
+    <main>
+        <section aria-labelledby="titulo-principal" data-aos="fade-up">
+            <h1 id="titulo-principal">NURA – Alimentação Saudável e Personalizada</h1>
+            <p>
+                Bem-vindo à NURA, uma plataforma digital moderna e responsiva que oferece alimentos adaptados às suas
+                necessidades nutricionais, como intolerância à lactose, glúten, veganismo e controle de diabetes.
+            </p>
+            <a href="#" class="cta-btn">Conheça nossos produtos</a>
+        </section>
+
+        <section data-aos="fade-up">
+            <h2>Propósito Principal</h2>
+            <p>
+                Nosso objetivo é facilitar o acesso a alimentos saudáveis, com filtros inteligentes e recursos como
+                carrinho de compras, cálculo de frete, simulação de pagamento e avaliações. Além disso, a NURA oferece
+                uma área administrativa completa para gestão eficiente de produtos, estoque e pedidos.
+            </p>
+        </section>
+
+        <section data-aos="fade-up">
+            <h2>Funcionalidades</h2>
+            <div class="features">
+                <div class="feature-card"><span>🌿</span>
+                    <p>Filtros por perfil alimentar: sem glúten, sem lactose, vegano, vegetariano, entre outros.</p>
+                </div>
+                <div class="feature-card"><span>🛒</span>
+                    <p>Carrinho de compras e lista de favoritos.</p>
+                </div>
+                <div class="feature-card"><span>💳</span>
+                    <p>Simulação segura de pagamento e cálculo automático de frete.</p>
+                </div>
+                <div class="feature-card"><span>🤖</span>
+                    <p>Chatbot para dúvidas frequentes.</p>
+                </div>
+                <div class="feature-card"><span>📖</span>
+                    <p>Receitas com passo a passo e informações nutricionais.</p>
+                </div>
+                <div class="feature-card"><span>🔔</span>
+                    <p>Notificações personalizadas e avaliações dos usuários.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="receitas" data-aos="fade-up">
+            <h2>Receitas em Destaque</h2>
+            <div class="features">
+                <div class="feature-card"><span>🥗</span>
+                    <p>Salada Mediterrânea com grão-de-bico e azeite extra-virgem.</p>
+                </div>
+                <div class="feature-card"><span>🍠</span>
+                    <p>Purê de batata-doce com frango grelhado e legumes.</p>
+                </div>
+                <div class="feature-card"><span>🍌</span>
+                    <p>Panqueca de banana sem glúten e sem lactose.</p>
+                </div>
+                <div class="feature-card"><span>🥑</span>
+                    <p>Toast de abacate com ovo pochê e chia.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2025 NURA - Plataforma Digital para Alimentação Saudável
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
